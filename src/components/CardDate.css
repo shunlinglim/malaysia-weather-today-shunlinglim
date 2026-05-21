@@ -96,7 +96,7 @@ p.first.date {
     align-items: center;
     text-align: center;
     transition: color 0.1s ease-in-out 0.1s;
-    z-index: 2;
+    z-index: 999;
     padding-inline: 1rem;
 }
 
@@ -127,7 +127,7 @@ p.first.date {
     align-items: center;
     position: absolute;
     bottom: 26px;
-    z-index: 999;
+    z-index: 998;
 }
 
 .option-district {
