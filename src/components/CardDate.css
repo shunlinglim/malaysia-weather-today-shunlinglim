@@ -8,7 +8,7 @@
     justify-content: space-between;
     align-items: center;
     padding-block: 24px 26px;
-    z-index: 2;
+    z-index: 99;
     transition: background-color 1.0s ease-in-out, color 1.0s ease-in-out, opacity 1.0s ease-in-out;
 }
 
@@ -96,7 +96,7 @@ p.first.date {
     align-items: center;
     text-align: center;
     transition: color 0.1s ease-in-out 0.1s;
-    z-index: 999;
+    z-index: 99;
     padding-inline: 1rem;
 }
 
@@ -127,7 +127,7 @@ p.first.date {
     align-items: center;
     position: absolute;
     bottom: 26px;
-    z-index: 998;
+    z-index: 98;
 }
 
 .option-district {
@@ -142,7 +142,7 @@ p.first.date {
     transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
     width: 8.4rem;
     padding: 0.5rem 0.45rem;
-    z-index: 2;
+    z-index: 99;
 }
 
 .select-district.hidden > .option-district {

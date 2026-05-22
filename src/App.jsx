@@ -1,5 +1,6 @@
 import dayjs from "dayjs";
-import { useEffect, useState, useCallback } from "react"; import './App.css'
+import { useEffect, useState, useCallback } from "react"; 
+import './App.css';
 import weatherStatus from './weatherStatus.json';
 import { Button } from './components/Button'
 import { Card } from './components/Card'
